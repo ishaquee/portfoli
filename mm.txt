@@ -1,0 +1,23 @@
+
+.work .content .workbox {
+  width: 500px;
+  padding: 20px;
+}
+
+.work .content .workbox img {
+  max-width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.work .content .workbox img:hover {
+  box-shadow: 0 0 20px 5px #ccc;
+  transform: scale(1.0008);
+  -webkit-transform: scale(1.0008);
+  -moz-transform: scale(1.0008);
+  -ms-transform: scale(1.0008);
+  -o-transform: scale(1.0008);
+  transition: 0.5;
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -ms-transition: 0.5;
+}
