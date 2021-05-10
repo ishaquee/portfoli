@@ -482,3 +482,32 @@ footer.copyright{
     font-size: 20px;
   }
 }
+
+@media (max-width: 768px){
+    .testimonial .content .testimonialBx{
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 30px;
+    }
+    .heading.bottom{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:row;
+    }
+}
+
+@media (max-width: 600px){
+    .testimonial .content .testimonialBx{
+        max-width: calc(100% - 20px);
+        padding: 40px 20px;
+        margin: 30px;
+    }
+    .heading.bottom{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction:column;
+    }
+}
+
